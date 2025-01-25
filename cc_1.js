@@ -44,3 +44,12 @@ let customerName = "Jenny James";
 // Welcome Message
 let welcomeMessage = "Welcome Jenny!";
 console.log(welcomeMessage, typeof(welcomeMessage));
+
+// Task 5 Boolean Data Type 
+let isLoggedIn = true;
+if (isLoggedIn) {
+    console.log("Hello!");
+} else {
+    console.log("Please try again.");
+}
+// Access Control 
