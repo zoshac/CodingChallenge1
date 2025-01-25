@@ -21,21 +21,26 @@ console.log(isAvailable, typeof(isAvailable));
 // Task 3 Number Data Type
 let accountBalance = 500.00;
 
-accountBalance += 50.00
+accountBalance += 50.00;
 // Account Balance was increased by 50
 
-accountBalance -= 15.00
+accountBalance -= 15.00;
 // Account Balance was decreased by 15
 
 accountBalance *= 10;
 // Account Balance multiplied by 10
 
-accountBalance /= 2
+accountBalance /= 2;
 // Account Balance divided by 2
 
-console.log("Balance Increase:", accountBalance);
-console.log("Balance Decrease:", accountBalance);
-console.log("Balance Multiplied:", accountBalance);
-console.log("Balance Divided:", accountBalance);
+console.log("Balance Increase:" + accountBalance);
+console.log("Balance Decrease:" + accountBalance);
+console.log("Balance Multiplied:" + accountBalance);
+console.log("Balance Divided:" + accountBalance);
 // Financial Transactions
 
+// Task 4 String Data Type
+let customerName = "Jenny James";
+// Welcome Message
+let welcomeMessage = "Welcome Jenny!";
+console.log(welcomeMessage, typeof(welcomeMessage));
